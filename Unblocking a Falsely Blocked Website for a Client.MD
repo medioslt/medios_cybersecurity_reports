@@ -15,7 +15,7 @@ I, Marius, a SOC Analyst from medios.lt, present this report detailing a case in
 The following actions were undertaken as part of the analysis:
 
 1. **FTP File Retrieval:** Downloaded the website files via FTP for examination.
-2. **Comprehensive Scanning:** Utilized THOR Scanner, Thor Scanner, and additional YARA rules to scrutinize the website files. The goal was to identify signatures and evaluate the presence of potentially harmful content, including content management system files.
+2. **Comprehensive Scanning:** Utilized THOR Scanner, Thor Scanner, and additional YARA rules to scrutinize the website files. The goal was to identify signatures and evaluate the presence of potentially harmful content in content management system files. This resulted in false positives that were actually content management system files.
 3. **ClamAV Scan:** Conducted a scan using the ClamAV free version, resulting in the absence of any malicious files.
 4. **File Validation:** Verified the flagged incident by examining the specific log file:
    - Identified suspicious scanning activity originating from IP address 20.225.167.90 on July 28, 2023, within the time range of [Start Timestamp] to [End Timestamp].
