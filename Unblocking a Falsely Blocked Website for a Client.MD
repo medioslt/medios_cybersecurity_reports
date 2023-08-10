@@ -18,7 +18,7 @@ The following actions were undertaken as part of the analysis:
 2. **Comprehensive Scanning:** Utilized THOR Scanner, Thor Scanner, and additional YARA rules to scrutinize the website files. The goal was to identify signatures and evaluate the presence of potentially harmful content in content management system files. This resulted in false positives that were actually content management system files.
 3. **ClamAV Scan:** Conducted a scan using the ClamAV free version, resulting in the absence of any malicious files.
 4. **File Validation:** Verified the flagged incident by examining the specific log file:
-   - Identified suspicious scanning activity originating from IP address 20.225.167.90 on July 28, 2023, within the time range of [Start Timestamp] to [End Timestamp].
+   - Identified suspicious scanning activity originating from IP address 20.225.167.90 on July 28, 2023, within the time range of [July 28, 2023, 05:38:13 +1000] to [July 28, 2023, 05:47:46 +1000].
    - Validated the IP address against https://www.abuseipdb.com/check/20.225.167.90, confirming its association with a known web attack IP address.
 
 ### Log File Analysis
